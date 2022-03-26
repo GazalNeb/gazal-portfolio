@@ -6,11 +6,13 @@
   align-items: center;
 
   @media screen and (max-width: 800px) {
-    margin: 55vh auto;
+    margin-top: 40vh;
   }
+
   @media screen and (max-width: 400px) {
-    margin: 40vh auto;
+    margin-top: 30vh;
   }
+
   &_intro {
     display: flex;
     flex-direction: column;
@@ -50,16 +52,30 @@
   align-items: center;
   gap: 10vh;
 
+  @media screen and (max-width: 400px) {
+    margin: 0;
+  }
+
   .experience {
     display: flex;
     align-items: center;
     gap: 20px;
+    background: none;
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+    }
   }
 
   .education {
     display: flex;
     align-items: center;
     gap: 20px;
+    background: none;
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column-reverse;
+    }
   }
 }
 
@@ -71,11 +87,23 @@
   gap: 10vh;
   background: none;
 
+  @media screen and (max-width: 800px) {
+    gap: 5vh;
+    margin: 5vh auto;
+  }
+
+
   &_group {
     background: none;
+
     &_heading {
       margin: 20px;
       background: none;
+
+      @media screen and (max-width: 800px) {
+        text-align: center;
+      }
+
     }
 
     &_card {
@@ -83,6 +111,10 @@
       align-items: center;
       gap: 20px;
       background: none;
+
+      @media screen and (max-width: 800px) {
+        flex-direction: column;
+      }
     }
   }
 
@@ -91,4 +123,7 @@
 .align-right {
   text-align: right;
 
+  @media screen and (max-width: 800px) {
+    text-align: center;
+  }
 }

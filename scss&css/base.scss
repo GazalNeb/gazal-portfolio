@@ -14,8 +14,13 @@ $color-white: #fafafa;
   padding: 0;
   font-family: $font-text;
   color: $color-primary;
+  font-size: 18px;
   background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
   box-sizing: border-box;
+
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
+  }
 }
 
 a:link, 
