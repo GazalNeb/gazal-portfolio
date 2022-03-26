@@ -15,6 +15,7 @@ $color-white: #fafafa;
   font-family: $font-text;
   color: $color-primary;
   background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+  box-sizing: border-box;
 }
 
 a:link, 
