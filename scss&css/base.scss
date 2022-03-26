@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+$font-heading: "Montserrat";
+$font-text: "Merriweather";
+
+$color-primary: #4B4747;
+$color-secondary: #3D2D41;
+$color-tertiary: #730B8D;
+$color-black: #333333;
+$color-white: #fafafa;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-text;
+  color: $color-primary;
+  background: linear-gradient(90deg, #FDFBFB 0%, #EBEDEE 100%);
+}
+
+a:link, 
+a:visited {
+  text-decoration: none;
+}

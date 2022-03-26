@@ -1,0 +1,30 @@
+.navigation {
+  height: 10vh;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 400px) {
+   flex-direction: column;
+  };
+
+  &_heading {
+    font-size: 32px;
+    font-family: $font-heading;
+    color: $color-tertiary;
+    font-weight: lighter;
+    background: none;
+  }
+
+  div {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    background: none;
+
+    @media screen and (max-width: 400px) {
+      flex-direction: column;
+     };
+  }
+}
