@@ -1,5 +1,5 @@
 .header {
-  margin: auto;
+  margin: 10vh auto;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,6 @@
     flex-direction: column;
     align-items: center;
     gap: 4vh;
-    margin-top: 10vh;
     background: none;
 
     &_image {
@@ -36,4 +35,54 @@
       }
     }
   }
+}
+
+.experience-and-education {
+  margin: 20vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+
+  .experience {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .education {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.projects {
+  margin: 20vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+  background: none;
+
+  &_group {
+    background: none;
+    &_heading {
+      margin: 20px;
+      background: none;
+    }
+
+    &_card {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: none;
+    }
+  }
+
+}
+
+.align-right {
+  text-align: right;
+
 }

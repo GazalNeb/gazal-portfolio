@@ -49,7 +49,7 @@
   padding: 10px;
   gap: 20px;
   width: 450px;
-  height: 45vh;
+  height: 70vh;
   border-radius: 10px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   position: relative;
@@ -58,16 +58,28 @@
     text-align: center;
     background: none;
   }
+
+  &--intro {
+    height: 45vh;
+  }
+  @media screen and (max-width: 400px) {
+    width: 250px;
+   };
 }
 
-.glass-box:before {
-  content: "";
-  position: absolute;
-  background: inherit;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  box-shadow: inset 0 0 450px rgba(255, 255, 255, .5);
-  filter: blur(10px);
+
+.hr {
+  color: $color-tertiary;
+  width: 80%;
+  size: 10px;
+}
+
+.image-main {
+ border-radius: 10px;
+ height: 70vh; 
+ width: 400px;
+
+ &--project {
+   height: 70vh;
+ }
 }
