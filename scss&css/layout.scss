@@ -5,6 +5,12 @@
   flex-direction: column;
   align-items: center;
 
+  @media screen and (max-width: 800px) {
+    margin: 55vh auto;
+  }
+  @media screen and (max-width: 400px) {
+    margin: 40vh auto;
+  }
   &_intro {
     display: flex;
     flex-direction: column;
