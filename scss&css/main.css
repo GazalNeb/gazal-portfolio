@@ -122,6 +122,10 @@ a:visited {
   }
 }
 
+.heading-bottom {
+  text-align: left;
+}
+
 .text-heading {
   font-family: "Montserrat";
   color: #3D2D41;
@@ -160,17 +164,15 @@ a:visited {
   }
 }
 
-.hr {
-  color: #730B8D;
-  width: 80%;
-  size: 10px;
-}
-
 .image-main {
   border-radius: 10px;
   height: 70vh;
   width: 400px;
 }
-.image-main--project {
-  height: 70vh;
+
+.line {
+  margin-top: 15vh;
+}
+.line--bottom {
+  margin-top: 0;
 }

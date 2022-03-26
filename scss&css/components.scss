@@ -29,6 +29,10 @@
   }
 }
 
+.heading-bottom {
+  text-align: left;
+}
+
 .text-heading {
   font-family: $font-heading;
   color: $color-secondary;
@@ -67,19 +71,16 @@
    };
 }
 
-
-.hr {
-  color: $color-tertiary;
-  width: 80%;
-  size: 10px;
-}
-
 .image-main {
  border-radius: 10px;
  height: 70vh; 
  width: 400px;
+}
 
- &--project {
-   height: 70vh;
- }
+.line {
+  margin-top: 15vh;
+
+  &--bottom {
+    margin-top: 0;
+  }
 }
