@@ -114,6 +114,14 @@
       @media screen and (max-width: 800px) {
         flex-direction: column;
       }
+
+      &--projects-3-and-4 {
+        flex-direction: row-reverse;
+
+        @media screen and (max-width: 800px) {
+          flex-direction: column-reverse;
+        }
+      }
     }
   }
 }

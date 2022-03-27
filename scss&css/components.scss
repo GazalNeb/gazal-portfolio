@@ -62,9 +62,18 @@
 .text {
   font-size: 18px;
   line-height: 1.8;
+
+  &--link {
+    color: $color-tertiary;
+    background: none;
+  }
   @media screen and (max-width: 400px) {
     font-size: 14px;
   }
+}
+
+.link-name {
+  background: none;
 }
 
 .glass-box {
@@ -81,8 +90,9 @@
   background: inherit;
 
   p {
-    text-align: center;
+    height: 60%;
     background: none;
+    text-align: center;
   }
 
   &--intro {
