@@ -86,7 +86,6 @@
 .glass-box {
   display: flex;
   flex-direction: column;
-  // align-items: center;
   justify-content: space-evenly;
   padding: 10px;
   width: 500px;
@@ -96,6 +95,10 @@
   position: relative;
   background: inherit;
 
+  &_heading {
+    text-align: center;
+  }
+
   &_text {
     height: 60%;
     background: none;
@@ -104,7 +107,7 @@
 
   &_links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background: none;
   }

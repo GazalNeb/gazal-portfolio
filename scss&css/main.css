@@ -245,6 +245,9 @@ a:visited {
   position: relative;
   background: inherit;
 }
+.glass-box_heading {
+  text-align: center;
+}
 .glass-box_text {
   height: 60%;
   background: none;
@@ -252,7 +255,7 @@ a:visited {
 }
 .glass-box_links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background: none;
 }
