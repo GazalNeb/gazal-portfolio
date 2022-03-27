@@ -218,6 +218,11 @@ a:visited {
   color: #730B8D;
   background: none;
 }
+.text--button {
+  color: #730B8D;
+  background: none;
+  border-radius: 5px;
+}
 @media screen and (max-width: 400px) {
   .text {
     font-size: 14px;
@@ -231,7 +236,6 @@ a:visited {
 .glass-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
   padding: 10px;
   width: 500px;
@@ -241,10 +245,16 @@ a:visited {
   position: relative;
   background: inherit;
 }
-.glass-box p {
+.glass-box_text {
   height: 60%;
   background: none;
   text-align: center;
+}
+.glass-box_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: none;
 }
 .glass-box--intro {
   height: 45vh;
