@@ -219,9 +219,15 @@ a:visited {
   background: none;
 }
 .text--button {
+  font-size: 18px;
+  line-height: 1.8;
   color: #730B8D;
   background: none;
-  border-radius: 5px;
+}
+@media screen and (max-width: 400px) {
+  .text--button {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 400px) {
   .text {
@@ -256,7 +262,7 @@ a:visited {
 .glass-box_links {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   background: none;
 }
 .glass-box--intro {
