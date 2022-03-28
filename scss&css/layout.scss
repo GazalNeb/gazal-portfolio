@@ -6,7 +6,7 @@
   align-items: center;
 
   @media screen and (max-width: 800px) {
-    margin-top: 40vh;
+    margin-top: 35vh;
   }
 
   @media screen and (max-width: 400px) {
@@ -91,7 +91,6 @@
     gap: 5vh;
     margin: 5vh auto;
   }
-
 
   &_group {
     background: none;
