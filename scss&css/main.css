@@ -124,17 +124,12 @@ a:visited {
   gap: 20px;
   background: none;
 }
-@media screen and (max-width: 800px) {
-  .projects_group_card {
-    flex-direction: column;
-  }
-}
 .projects_group_card--projects-3-and-4 {
   flex-direction: row-reverse;
 }
 @media screen and (max-width: 800px) {
-  .projects_group_card--projects-3-and-4 {
-    flex-direction: column-reverse;
+  .projects_group_card {
+    flex-direction: column;
   }
 }
 
